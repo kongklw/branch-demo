@@ -1,0 +1,86 @@
+# Developers
+.svn
+.idea/
+# .vscode/
+db/
+db/**
+*.db
+*.sqlite
+*.sqlite3
+*.pyc
+__pycache__
+*~
+
+# tests & coverage reports
+reports/
+htmlcov/
+.coverage*
+.pytest_cache
+
+# Local development
+.python-version
+.env
+env/
+venv/
+.venv/
+mail/
+log/
+log/*.log
+log/*.log*
+log/*.jsonl
+log/nginx/*.log*
+celerybeat
+tmp
+tmp/**
+.tmp/*
+!/tmp/.gitkeep
+.*.json
+*.dump
+*.ipynb
+
+# Static files
+media/
+private_media/
+static/
+src/static/
+
+# Container
+docker/.env
+.devcontainer/extensions/
+.devcontainer/bin/
+.devcontainer/site-packages/
+
+# macOS
+.DS_Store
+
+# DuckDB
+.duckdb_extensions/
+*.duckdb
+conn.duckdb.tmp/*
+
+# Files
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pptx
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# Project
+deploy/pgbouncer/userlist.txt
+deploy/pgbouncer/pgbouncer.ini
+smart_report.egg-info/
+docs/
+.github/
+.gitmodules
+.worktrees/
+.opencode/
+openspec
+.venv
+.codegraph
